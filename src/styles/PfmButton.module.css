@@ -1,0 +1,11 @@
+.buttonOutline {
+  border: none;
+  border-radius: 7px;
+  background: #557733;
+  width: 165px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
