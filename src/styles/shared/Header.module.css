@@ -1,0 +1,27 @@
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    width: 100vw;
+    height: auto;
+    min-height: 80px;
+}
+.innerHeader{
+    margin: min(4vh, 30px) 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 40px;
+}
+
+/* デスクトップサイズ（1024px以上）の場合 */
+@media screen and (min-width: 1024px) {
+    .logo {
+        height: 50px;
+    }
+}

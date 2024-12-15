@@ -3,23 +3,24 @@ import Image from "next/image";
 import LogoImage from "@/public/images/logo.svg";
 import Navigation from "@/components/Navigation";
 import PfmButton from "@/components/PfmButton";
-import Styles from "@/styles/Header.module.css";
-export default function header() {
+import Styles from "@/styles/shared/Header.module.css";
+
+export default function Header() {
   return (
-    <div className="header">
+    <header className={Styles.header}>
       <div className={Styles.innerHeader}>
-        <div className="logo">
-          
+        <div className={Styles.logo}>
           <Image
             src={LogoImage}
             alt="logoイメージ"
-            width={105}
-            layout="intrinsic"
+            height={50}
+            width="auto"
+            className={Styles.logo}
           />
         </div>
         <Navigation />
         <PfmButton />
       </div>
-    </div>
+    </header>
   );
 }

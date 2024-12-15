@@ -1,0 +1,22 @@
+.Hero {
+  min-height: 600px;
+  height: 100vh;
+  position: relative;
+  background-image: url("../public/images/HeroImg.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.HeroContent {
+  color: black;
+}
+
+.HeroTitle {
+  padding: min(22vh, 160px) 0 0 60px;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.HeroTitle span {
+  color: #557733;
+}

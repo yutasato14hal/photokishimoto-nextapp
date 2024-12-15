@@ -1,6 +1,6 @@
 .nav{
     max-width: 600px;
-    max-height: 50px;
+    max-height: 40px;
     border-radius: 30px;
     background-color: #557733;
 }
@@ -8,13 +8,21 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 .nav ul li{
-    padding: 13px;
+    padding:0 13px;
     text-decoration: none;
     list-style: none;
+    font-size: clamp(0.875rem, 1vw, 1rem);
 }
 .link{
     color: #fff;
+}
+
+/* デスクトップサイズ（1024px以上）の場合 */
+@media screen and (min-width: 1024px) {
+    .nav ul li {
+        font-size: 1rem;
+    }
 }

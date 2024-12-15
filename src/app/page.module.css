@@ -1,0 +1,86 @@
+.section {
+  margin-bottom: 100px; /* 例：上部の余白を追加 */
+}
+.sectionContainer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.sectionAbout {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+.sectionAbout article {
+  width: 50%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.aboutImage {
+  width: 50%;
+}
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.responsiveImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.desc {
+  color: #557733;
+  font-size: 0.7rem;
+  margin: 1.2rem 0 2rem 0;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionArchive {
+  position: relative;
+  width: 100%;
+}
+.archiveSubTitle {
+  width: fit-content;
+  padding-right: 3rem;
+  border-bottom: 2px solid #557733;
+  margin-bottom: 1rem;
+}
+.archives {
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+.archiveCon span {
+  padding-right: 2rem;
+}
+.archiveImage {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+.archiveCon small {
+  color: #557733;
+}
+
+.archiveCon {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.pfmButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) {
+  .responsiveImage {
+    height: 460px;
+  }
+}

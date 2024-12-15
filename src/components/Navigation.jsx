@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
-import Styles from "@/styles/Nav.module.css"
+import Styles from "@/styles/shared/Nav.module.css"
 export default function Navigation() {
   return (
     <nav className={Styles.nav}>
