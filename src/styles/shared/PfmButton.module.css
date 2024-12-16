@@ -2,10 +2,10 @@
     border: none;
     border-radius: 7px;
     background: #557733;
-    width: 165px;
-    height: 40px;
+    width: clamp(140px, 20vw, 165px);
+    height: clamp(35px, 5vh, 40px);
     color: #fff;
-    font-size: 16px;
+    font-size: clamp(14px, 2vw, 16px);
     font-weight: bold;
     cursor: pointer;
 }

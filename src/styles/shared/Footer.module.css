@@ -1,0 +1,45 @@
+/* Footer全体のスタイル */
+.footer {
+  height: 30vh;
+  background-color: #333333; /* 背景色 */
+  color: #ffffff; /* テキスト色 */
+  display: flex; /* Flexboxの有効化 */
+  flex-direction: column; /* 縦方向に配置 */
+  justify-content: center; /* コンテンツを中央に */
+  align-items: center; /* 水平中央揃え */
+  font-size: 1.1rem;
+  line-height: 1.5; /* 行間 */
+  font-weight: bold;
+  position: relative;
+  gap: 10px;
+}
+
+/* Footer内のコンテンツ */
+.footer-content {
+  display: flex;
+  flex-direction: column; /* 縦方向に要素を並べる */
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* テキスト中央揃え */
+  width: 100%; /* 横幅いっぱい */
+  padding-bottom: 10px;
+}
+.contact a {
+  border-bottom: 2px solid #557733;
+}
+
+
+.companyInfoLink{
+  text-align: center;
+  border-bottom: 2px solid #557733;
+  font-weight: bold; /* 太字 */
+}
+
+/* 著作権のスタイル */
+.copyright {
+  font-size: 0.9rem; /* 小さいフォントサイズ */
+  color: #b0b0b0; /* 薄いグレー */
+  text-align: center; /* テキスト中央揃え */
+  position: absolute; /* 絶対位置を解除 */
+  bottom: 1rem; /* 下部の固定解除 */
+}

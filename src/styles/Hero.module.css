@@ -1,11 +1,11 @@
 .Hero {
-  min-height: 600px;
+  min-height: clamp(400px, 50vh, 600px);
   height: 100vh;
   position: relative;
   background-image: url("../public/images/HeroImg.png");
   background-size: cover;
   background-position: center;
-  margin-bottom: 100px;
+  margin-bottom: clamp(50px, 10vh, 100px);
 }
 
 .HeroContent {
@@ -19,4 +19,16 @@
 
 .HeroTitle span {
   color: #557733;
+}
+
+/* スマートフォン向けのスタイル */
+@media (max-width: 600px) {
+    .Hero {
+        min-height: 400px;
+        margin-bottom: 50px;
+    }
+    .HeroTitle {
+        padding: min(15vh, 100px) 0 0 30px;
+        font-size: clamp(1.2rem, 2vw, 1.5rem);
+    }
 }
