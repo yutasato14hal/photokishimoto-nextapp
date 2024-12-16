@@ -5,10 +5,12 @@
     width: 100%;
     z-index: 1000;
     background: transparent;
+    width: 100vw;
+    height: auto;
     min-height: 80px;
 }
 .innerHeader{
-    margin: clamp(15px, 2vh, 30px) clamp(30px, 5vw, 60px);
+    margin: min(4vh, 30px) 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;

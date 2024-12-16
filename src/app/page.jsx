@@ -12,7 +12,6 @@ import PhotographImage from "@/public/images/Activity1.svg";
 import LendingImage from "@/public/images/Activity2.svg";
 import CreativeImage from "@/public/images/Activity3.svg";
 import ArchiveImage from "@/public/images/ArchiveImage.JPG";
-import Footer from "@/components/Footer"
 export default function Page() {
   return (
     <div>
@@ -137,7 +136,6 @@ export default function Page() {
           </div>
         </section>
       </div>
-      <Footer/>
     </div>
   );
 }
