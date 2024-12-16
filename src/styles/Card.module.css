@@ -1,7 +1,7 @@
 .card {
     position: relative;
     width: clamp(200px, 25vw, 260px);
-    height: clamp(250px, 30vh, 300px);
+    height: clamp(280px, 30vh, 320px);
     perspective: 1000px;
 }
   
