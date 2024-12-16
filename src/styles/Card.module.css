@@ -1,7 +1,7 @@
 .card {
     position: relative;
-    width: 260px;
-    height: 320px;
+    width: clamp(200px, 25vw, 260px);
+    height: clamp(280px, 30vh, 320px);
     perspective: 1000px;
 }
   
@@ -89,5 +89,23 @@
 
 .card:hover .cardBack {
     transform: rotateY(360deg);
+}
+  
+/* スマートフォン向けのスタイル */
+@media (max-width: 600px) {
+    .card {
+        width: 200px;
+        height: 250px;
+    }
+    .cardTitle {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .cardDescription {
+        font-size: 0.7rem;
+    }
+    .cardButton {
+        padding: 6px 12px;
+    }
 }
   

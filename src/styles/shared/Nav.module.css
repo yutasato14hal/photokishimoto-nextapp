@@ -1,5 +1,5 @@
 .nav{
-    max-width: 600px;
+    max-width: clamp(100%, 80vw, 600px);
     max-height: 40px;
     border-radius: 30px;
     background-color: #557733;
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 10px 20px;
+    padding: clamp(5px, 1vh, 10px) clamp(10px, 2vw, 20px);
 }
 .nav ul li{
     padding:0 13px;
